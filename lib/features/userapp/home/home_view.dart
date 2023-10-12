@@ -18,7 +18,16 @@ class _HomeViewState extends State<HomeView> {
           padding: EdgeInsets.all(8.0),
           child: Column(
             children: [
-              CustomCarousel(),
+              Expanded(
+                  child: ListView(
+                children: [
+                  CustomCarousel(),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text("Emergency",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),
+                  )
+                ],
+              ))
             ],
           ),
         ),
