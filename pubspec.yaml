@@ -20,6 +20,7 @@ dependencies:
   webview_flutter: ^3.0.4
   url_launcher: ^6.1.5
   google_fonts: ^4.0.3
+  flutter_phone_direct_caller: ^2.1.1
   
 dev_dependencies:
   flutter_test:
