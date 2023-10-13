@@ -6,9 +6,9 @@ class LiveSafeCardWidget extends StatelessWidget {
   final VoidCallback onpressed;
   const LiveSafeCardWidget(
       {super.key,
-        required this.img,
-        required this.title,
-        required this.onpressed});
+      required this.img,
+      required this.title,
+      required this.onpressed});
 
   @override
   Widget build(BuildContext context) {
@@ -28,9 +28,9 @@ class LiveSafeCardWidget extends StatelessWidget {
                 width: 50,
                 child: Center(
                     child: Image.asset(
-                      img,
-                      height: 32,
-                    )),
+                  img,
+                  height: 32,
+                )),
               ),
             ),
             Text(title),

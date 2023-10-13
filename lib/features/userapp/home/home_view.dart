@@ -2,9 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:safetyapp/common/widget/custom_carousel_widget.dart';
 import 'package:safetyapp/common/widget/home_widget/emergency_widget.dart';
-import 'package:safetyapp/features/userapp/home/livesafe_view.dart';
-
-import '../../../common/widget/locationcard_widget.dart';
+import 'package:safetyapp/common/widget/home_widget/locationcard_widget.dart';
+import 'package:safetyapp/features/userapp/home/livesafe.dart';
 
 class HomeView extends StatefulWidget {
   const HomeView({super.key});
@@ -44,7 +43,7 @@ class _HomeViewState extends State<HomeView> {
                     ),
                   ),
                   const LiveSafe(),
-                  LocationCardWidget(),
+                LocationCardWidget(),
                 ],
               ))
             ],
@@ -53,4 +52,6 @@ class _HomeViewState extends State<HomeView> {
       ),
     );
   }
+
+
 }
