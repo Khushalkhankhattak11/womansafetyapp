@@ -4,7 +4,7 @@ class CustomTextField extends StatelessWidget {
   final String? hinttext;
   final TextEditingController? controller;
   final String? Function(String?)? validtor;
-  final String Function(String?)? onSaved;
+  final Function(String?)? onSaved;
   final bool? enable;
   final bool? ischeck;
   final FocusNode? focusNode;
@@ -53,13 +53,13 @@ class CustomTextField extends StatelessWidget {
               borderRadius: BorderRadius.circular(10),
               borderSide: const BorderSide(
                 style: BorderStyle.solid,
-                color: Colors.green,
+                color: Colors.black26,
               )),
           enabledBorder: OutlineInputBorder(
               borderRadius: BorderRadius.circular(10),
               borderSide: const BorderSide(
                 style: BorderStyle.solid,
-                color: Colors.black,
+                color: Colors.black12,
               )),
           focusedErrorBorder: OutlineInputBorder(
               borderRadius: BorderRadius.circular(10),
