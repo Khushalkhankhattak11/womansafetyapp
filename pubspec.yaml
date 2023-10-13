@@ -21,7 +21,7 @@ dependencies:
   url_launcher: ^6.1.5
   google_fonts: ^4.0.3
   flutter_phone_direct_caller: ^2.1.1
-  
+  fluttertoast: ^8.2.2
 dev_dependencies:
   flutter_test:
     sdk: flutter
