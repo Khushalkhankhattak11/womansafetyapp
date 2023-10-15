@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:safetyapp/features/child/bottom_nav/add_contact/add_contact.dart';
 import 'package:safetyapp/features/child/bottom_nav/pages/childchat.dart';
 import 'package:safetyapp/features/child/bottom_nav/pages/childcontact.dart';
 import 'package:safetyapp/features/child/bottom_nav/pages/childhome.dart';
@@ -16,7 +17,7 @@ class _NavBarBottomState extends State<NavBarBottom> {
   int currentIndex =0;
   List<Widget> pages = [
     const HomeView(),
-    const ChildContact(),
+    const AddContact(),
     const ChildChat(),
     const ChildProfile(),
     const ChildRating(),
