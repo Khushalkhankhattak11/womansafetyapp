@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "650846212520",
+    "project_id": "womansafteyapp-bbff4",
+    "storage_bucket": "womansafteyapp-bbff4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650846212520:android:aa7f0e692eb9615ae0cd9d",
+        "android_client_info": {
+          "package_name": "com.example.safetyapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD-oigWeo1v8Nk89TOzzYNihXGdf8i-ic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
