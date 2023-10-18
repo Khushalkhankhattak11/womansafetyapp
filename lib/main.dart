@@ -3,9 +3,13 @@ import 'package:flutter/material.dart';
 import 'package:safetyapp/features/authentication/view/auth/login_auth.dart';
 import 'package:safetyapp/utiles/theme/theme.dart';
 
+import 'firebase_options.dart';
+
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(const MyApp());
 }
 
