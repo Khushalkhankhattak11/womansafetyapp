@@ -9,17 +9,14 @@ dialogueBox(BuildContext context, String text) {
           ));
 }
 
-ProgressDialogs(BuildContext context) {
-  showDialog(
-      barrierDismissible: false,
-      context: context,
-      builder: (context) => Center(
-            child: CircularProgressIndicator(
-              strokeWidth: 7,
-              backgroundColor: primaryColor,
-              color: Colors.red,
-            ),
-          ));
+ Widget ProgressDialogs(BuildContext context) {
+ return Center(
+    child: CircularProgressIndicator(
+      strokeWidth: 7,
+      backgroundColor: primaryColor,
+      color: Colors.red,
+    ),
+  );
 }
 
 AlertsDialog(BuildContext context, String title) {
